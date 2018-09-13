@@ -1,0 +1,460 @@
+html, body 
+{
+   background: #c9e5f3;
+   font-family: 'Nunito', sans-serif;
+	height:100%;
+}
+* {
+    box-sizing: border-box;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+@media (max-width: 960px) {
+ #sidebar .hideme { display: none; }
+}
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+#header {
+    background: white url(landing.jpg) no-repeat 100%;
+    width: 100%;
+    height:500px;
+    font-family: 'Nunito', sans-serif;
+}
+#text1 {
+    background: white url(resources/location-icon.png) no-repeat 0px 4px;
+    padding:8px 4px 4px 50px;
+    height:40px;
+    margin-left: 430px;
+    margin-top: 270px;
+    border: 0px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+#text2 {
+    background:white url(resources/aim-icon.png) no-repeat 0px 4px;
+    padding:8px 4px 4px 50px;
+    height:40px;
+    margin-top: 270px;
+    border: 0px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+#btngo{
+    background: midnightblue ; 
+    opacity: 0.9;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 272px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 38px;
+    vertical-align: middle;
+}
+#btnsp{
+    background: red ; 
+    border: 1px;
+    border-radius: 13px;
+    color: white;
+    margin-left: 525px;
+    margin-right: -17px;
+    margin-top: 8px;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+}
+#btnuser{
+    width:32px;
+    height:32px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border:0;
+    background:transparent;
+}
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */ /*Black: rgba(0,0,0,0.5);*/
+    height: 50px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: #333;
+    height: 30px;
+    transition: background-color 3s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: #333;
+}
+.nav navbar-nav > li > a {
+   color: white;
+}
+.navbar .nav > li > a {
+    color: white;
+}
+.navbar .nav > li > a:hover {
+    float: none;
+    color: white;
+    background-color: rgba(0,0,0,0);
+}
+.navbar-nav > li > a:link
+{
+color: white;
+}
+.mynav{
+    color: white;
+}
+@media (max-width: 992px) {
+  .opaque-navbar {
+    background-color: #333;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+}
+#midcon{
+    background: white;
+}
+#head-bot , #head-bot1{
+   font-family: 'Nunito', sans-serif;
+   text-align: center; 
+   color: black;
+   margin-top: 40px;
+}
+.box-body {
+    margin-top: 50px;  
+    margin-left: 180px;
+    font-family: 'Nunito', sans-serif;
+    width: 250px;
+}
+.box-body1 {
+    margin-top: 50px;  
+    margin-left: 240px;
+    font-family: 'Nunito', sans-serif;
+    width: 250px;
+}
+.box-body2 {
+    margin-top: 50px;  
+    margin-left: 280px;
+    font-family: 'Nunito', sans-serif;
+    width: 250px;
+}
+.box-list {
+	text-align: left;
+}
+.box-info{
+    padding-top: 10px;
+}
+.box-body3 {
+    margin-top: 50px;  
+    margin-left: 120px;
+    font-family: 'Nunito', sans-serif;
+    width: 250px;
+}
+.box-body4 {
+    margin-top: 50px;  
+    margin-left: 240px;
+    font-family: 'Nunito', sans-serif;
+    width: 250px;
+}
+.box-body5 {
+    margin-top: 50px;  
+    margin-left: 380px;
+    font-family: 'Nunito', sans-serif;
+    width: 250px;
+}
+#btnstart{
+    background: red ; 
+    border: 1px;
+    color: white;
+    margin-right: 12px;
+    margin-top: 8px;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    height: 35px;
+}
+
+#tab-menu{
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to left, #99ccff 0%, #ffffff 100%);
+    margin-top: 50px;
+}
+div.tab {
+    background: linear-gradient(to left, #99ccff 0%, #ffffff 100%);
+    float: left;
+    width: 30%;
+    height: 550px;
+    border: transparent;
+}
+/* Style the buttons inside the tab */
+div.tab button {
+    border-right: 4px solid #172556;
+    border-bottom: 2px solid white;
+    display: block;
+    background-color: transparent;
+    padding: 22px 16px;
+    width: 100%;
+    height: 70px;
+    outline: none;
+    text-align: right;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    color: white;
+    background: #172556;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background: #172556;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: background-color .3s;
+}
+
+/* Style the tab content */
+.tabcontent {
+    background: linear-gradient(to left, #99ccff 0%, #ffffff 100%);
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 550px;
+}
+.tabhead{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.tabpara{
+    text-align: justify;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.tabinner{
+    margin-top: -60px;
+    margin-left: 200px;
+}
+#btnflight{
+    border-bottom: transparent;
+}
+.cascad{
+    background-color: #ec615e;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+}
+#looking-for{
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 40%;
+}
+.btnst{
+    border: none;
+    margin-top: 20px;
+}
+.btn-blue{
+    background-color: #161a47;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+.btntext{
+    margin-left: 150px;
+    letter-spacing: 0.5pt;
+    color: white;
+}
+#text3 {
+    background: white url(resources/location-icon.png) no-repeat 0px 4px;
+    padding:8px 4px 4px 50px;
+    height:40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border:none;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.btnreq{
+     background: red ; 
+    border: none;
+    margin-top: 10px;
+    margin-left: -2px;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 130px;
+    vertical-align: middle;
+}
+.location{
+        font-family: 'Nunito', sans-serif;
+        background-color: #c9e5f3;
+        height: 393px;
+        margin-left: 125px;
+}
+.img-responsive{
+    margin-left: 150px;
+}
+.description{
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.btns{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    float: right;
+    width:100%;
+    height: 350px;
+    background: white;
+}
+#btnstext{
+    margin-top: 60px;
+}
+.btndetails{
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 520px;
+}
+#footup{
+    background: url(landing-foot.jpg) no-repeat 100%;
+    width: 100%;
+    height: 250px;
+    float: right;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+#footuptext{
+    margin-top: 50px;
+    font-size: 16px;
+    letter-spacing: 1pt;
+}
+#footbtn{
+    background: red ; 
+    opacity: 0.72;
+    border: 1px;
+    color: white;
+    margin-right: 12px;
+    margin-top: 8px;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1pt;
+    height: 40px;
+    width: 150px;
+}
+#footer{
+    font-family: 'Nunito', sans-serif;
+    float: right;
+    background: white;
+    width: 100%;
+}
+.footer-links li a {
+    color: #767676;
+}
+.footer-links{
+    background: white;
+    list-style: none;
+}
+#foothead{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#footpara{
+    margin-top: 40px;
+}
+.imgContainer{
+    display: inline-block;
+     margin-left: -150px;
+    width: 16px;
+
+}
+.imgContainer1{
+    margin-left: -130px;
+    margin-top: -22px;
+    width: 16px;
+}
+.imgContainer2{
+    margin-left: -110px;
+    margin-top: -16px;
+    width: 16px;
+}
